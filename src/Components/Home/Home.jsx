@@ -26,9 +26,6 @@ const Home = () => {
         setCart(remaining);
     }
 
-
-
-    console.log(tshirts);
     return (
         <div className="home-container">
             <div className="tshirt-container">
