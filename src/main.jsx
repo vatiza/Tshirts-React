@@ -8,6 +8,7 @@ import {
 import Main from './Components/Main/Main.jsx';
 import Home from './Components/Home/Home.jsx';
 import OrdersReview from './Components/OrdersReview/OrdersReview.jsx';
+import Grandpa from './Components/Grandapa/Grandpa.jsx';
 const router = createBrowserRouter([
   {
     path: '/',
@@ -21,6 +22,10 @@ const router = createBrowserRouter([
       {
         path: '/review',
         element: <OrdersReview></OrdersReview>
+      },
+      {
+        path:'/grandpa',
+        element:<Grandpa></Grandpa>
       }
     ]
   }
