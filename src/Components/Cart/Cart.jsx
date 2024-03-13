@@ -8,7 +8,7 @@ const Cart = ({ cart, handleRemovefromCart }) => {
     }
     return (
         <div>
-            <h1 className={cart.length === 0 ? 'red' : 'blue'}>Order Summary{cart.length}</h1>
+            <h1 className={cart.length === 0 ? 'red' : 'blue'}>Order Summary: {cart.length}</h1>
             {msg}
             {
                 cart.map(tshirt => <p
